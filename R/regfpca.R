@@ -202,6 +202,6 @@ data = list(t(df[,,1]),t(df[,,2]))
 
 
 
-d <- regfpca(mvfd_obj = data, centerfns = FALSE, num_pcs = 2)
+d <- regfpca(mvfd_obj = data, centerfns = FALSE, num_pcs = 1)
 
 

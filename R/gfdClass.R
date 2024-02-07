@@ -123,5 +123,8 @@ df  = gait
 datagait = list(t(df[,,1]),t(df[,,2]))
 data_checker_new = mvgfd$new(mvgfd_obj = datagait,centerfns =FALSE )
 # Check the data
-#result2 <- data_checker_new$check_data()
+result2 <- data_checker_new$check_data()
+data_checker_new2 = mvgfd$new(mvgfd_obj = c(2,5),centerfns =FALSE )
+data_checker_new2$check_data()
+
 
