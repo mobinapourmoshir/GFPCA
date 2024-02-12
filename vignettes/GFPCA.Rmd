@@ -1,0 +1,22 @@
+---
+title: "GFPCA"
+author: "Mobina"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{GFPCA}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+This is Test.
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(gwid)
+```
